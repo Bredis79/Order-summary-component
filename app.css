@@ -8,7 +8,7 @@ body {
     background-image: url("images/pattern-background-mobile.svg");
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 110%;
+    background-size: 110% 35%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,14 +64,15 @@ main {
     display: flex;
     
 }
-
 .middle img {
+    margin-left:40px ;
 }
 
 .middle span {
     font-weight: 900;
     font-size: 0.9rem;
     color: black;
+    
 }
 
 .middle p {
@@ -79,6 +80,7 @@ main {
     display: flex;
     flex-direction: column;
     align-content: center;
+    flex-grow: 1;
 }
 
 .middle a {
@@ -86,6 +88,7 @@ main {
     text-decoration: underline;
     font-weight: 700;
     font-size: 0.9rem;
+    flex-grow: 3;
 }
 
 .middle a:hover,
@@ -97,7 +100,7 @@ main {
     width: 23.43rem;
     background-color: white;
     border-radius: 0 0 1.5rem 1.5rem;
-    box-shadow: 0px 13px 28px rgb(0 0 0 / 10%)
+    box-shadow: 0px 13px 28px rgb(0 0 0 / 10%);
 }
 
 .bottom button {
@@ -108,12 +111,13 @@ main {
     margin-bottom: 1.5rem;
     background-color:hsl(244, 87%, 50%);
     color: white;
+    box-shadow: 0px 24px 28px rgb(0 0 0 / 17%);
 }
 
 
 
-button:hover,
-button:focus {
+.bottom button:hover,
+.bottom button:focus {
     background-color: hsl(245, 94%, 66%);
 }
 
@@ -135,7 +139,7 @@ footer {
     
     body {
         background-image: url("images/pattern-background-desktop.svg");
-        background-size: 100% 46%;
+        background-size: 100% 22%;
         background-position: inherit;
     }
 }
