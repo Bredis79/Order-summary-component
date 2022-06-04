@@ -19,7 +19,6 @@ body {
 main {
     max-width: 23.43rem;
     height: auto;
-    /*display: flex;*/
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -93,7 +92,7 @@ main {
 }
 
 .middle a:hover,
-.middle a:focus {
+.middle a:active {
     text-decoration: none;
 }
 
@@ -118,7 +117,7 @@ main {
 
 
 .bottom button:hover,
-.bottom button:focus {
+.bottom button:active {
     background-color: hsl(245, 94%, 66%);
 }
 
